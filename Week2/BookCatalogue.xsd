@@ -15,9 +15,9 @@
                             </xs:complexType>
                         </xs:element>
                         <xs:element name="title" type="xs:string"/>
-                        <xs:element name="genre" type="xs:decimal"/>
-                        <xs:element name="price" type="xs:date"/>
-                        <xs:element name="publish_date" type="xs:string"/>
+                        <xs:element name="genre" type="xs:string"/>
+                        <xs:element name="price" type="xs:decimal"/>
+                        <xs:element name="publish_date" type="xs:date"/>
                         <xs:element name="description" type="xs:string"/>
                     </xs:sequence>
                 </xs:complexType>
