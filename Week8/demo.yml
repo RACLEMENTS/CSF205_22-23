@@ -1,0 +1,14 @@
+---
+#Comment here
+
+steps:
+  - label: "Build"
+    key: build
+    plugins:
+      - autov1.2:
+        data: "cache"
+      - autov1.3:
+        data: "cache2"
+  - label : "Run Tests"
+    key: testing
+    
